@@ -9,17 +9,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div class="resultado">
         <p id="mensagem"></p>
     </div>
 
-    <div>
+    <div class="tabela">
         <input type="text" id="altura" placeholder="altura">
         <input type="text" id="peso" placeholder="peso">
         <input type="submit" id="calcular" value="calcular">
         <input type="submit" id="limpar" value="limpar">
     </div>
-    
+    <section>
+        <div class="texto">
+            <p>
+            <h1>Cálculo IMC</h1>
+            O IMC (Índice de Massa Corporal) é um padrão internacional de cálculo da obesidade de um indivíduo adotado pela OMS (Organização Mundial da Saúde). O método, desenvolvido pelo belga Lambert Quételet no fim do século XIX, é a forma mais fácil de saber se uma pessoa está com o peso ideal ou não. 
+
+            A altura (calculada em metros) e o peso (calculado em quilogramas) do indivíduo são os dois fatores levados em conta no cálculo do IMC. Para calcularmos o índice, basta dividirmos o peso de uma pessoa pela sua altura ao quadrado:
+            
+            IMC = Massa 
+                    Altura²
+            
+            Após o cálculo do índice, a OMS adota uma tabela que indica os graus de obesidade, entretanto, essa indicação não é algo totalmente inequívoco:
+
+            Índices abaixo de 18.5 não são considerados saudáveis segundo a OMS, entretanto, a pessoa pode muito bem apresentar um biotipo longilíneo e ser saudável. Indivíduos com IMCs entre 18.5 e 25 são considerados normais; nesse caso, a necessidade de emagrecer é, na maioria das vezes, de ordem estética. Entre 25 e 30, o indivíduo é considerado acima do peso, apresentando maiores chances de apresentar complicações, como diabetes, hipertensão arterial e hipercolesterolemia. Pessoas com IMCs acima de 30 são consideradas obesas, por isso, em virtude do alto risco de complicações metabólicas, é extremamente recomendável procurar um médico. 
+
+            Pessoas com uma grande massa muscular podem possuir um IMC elevado sem, no entanto, estarem acima do peso, por isso, esse aspecto é um dos principais problemas do uso do IMC. Além disso, o índice não leva em consideração os aspectos étnicos e raciais dos indivíduos: um grupo de assessoramento ligado à OMS concluiu que indivíduos de origem asiática com um IMC acima de 23 já são considerados acima do peso.
+
+            
+
+            </p>
+        </div>
+    </section>
+
     <script src="scripts.js"></script>
 </body>
 </html>
